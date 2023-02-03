@@ -1,4 +1,5 @@
 import axios, { AxiosError, AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
+import { useMessage } from 'naive-ui';
 import showCodeMessage from '@/api/code';
 import { formatJsonToUrlParams, instanceObject } from '@/utils/format';
 import { getToken } from '@/utils/token';
@@ -16,6 +17,8 @@ const axiosInstance: AxiosInstance = axios.create({
     'Content-Type': 'application/json',
   },
 });
+
+const message = useMessage();
 
 // 请求拦截器
 axiosInstance.interceptors.request.use(
@@ -41,7 +44,7 @@ axiosInstance.interceptors.response.use(
       const { code, data, msg } = response.data;
       if (code !== 0) {
         const error = msg || 'ERROR';
-        // ElMessage.error(error);
+        message.error(error);
         return Promise.reject(error);
       }
       return data;
@@ -51,10 +54,10 @@ axiosInstance.interceptors.response.use(
   (error: AxiosError) => {
     const { response } = error;
     if (response) {
-      // ElMessage.error(showCodeMessage(response.status));
+      message.error(showCodeMessage(response.status));
       return Promise.reject(response.data);
     }
-    // ElMessage.warning('网络连接异常,请稍后再试!');
+    message.warning('网络连接异常,请稍后再试!');
     return Promise.reject(error);
   },
 );
