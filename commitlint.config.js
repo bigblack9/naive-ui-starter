@@ -1,10 +1,3 @@
-/*
- * @Author: black9 lcl904624834@live.com
- * @Date: 2023-02-03 16:56:56
- * @LastEditors: black9 lcl904624834@live.com
- * @LastEditTime: 2023-02-03 16:57:25
- * @FilePath: /naive-ui-template/commitlint.config.js
- */
 module.exports = {
   extends: ['@commitlint/config-conventional', 'cz'],
   rules: {

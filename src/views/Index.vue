@@ -1,10 +1,3 @@
-<!--
- * @Author: black9 lcl904624834@live.com
- * @Date: 2023-02-02 17:16:57
- * @LastEditors: black9 lcl904624834@live.com
- * @LastEditTime: 2023-02-03 17:54:00
- * @FilePath: /naive-ui-template/src/views/Index.vue
--->
 <template>
   <n-card title="Naive UI Template">
     <n-space>

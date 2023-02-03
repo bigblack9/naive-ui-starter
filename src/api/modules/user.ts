@@ -1,10 +1,3 @@
-/*
- * @Author: black9 lcl904624834@live.com
- * @Date: 2023-02-03 15:12:58
- * @LastEditors: black9 lcl904624834@live.com
- * @LastEditTime: 2023-02-03 15:26:42
- * @FilePath: /naive-ui-template/src/api/modules/user.ts
- */
 import service from '@/api/http';
 
 export interface LoginParams {

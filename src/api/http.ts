@@ -1,10 +1,3 @@
-/*
- * @Author: black9 lcl904624834@live.com
- * @Date: 2023-02-03 12:08:55
- * @LastEditors: black9 lcl904624834@live.com
- * @LastEditTime: 2023-02-03 15:11:28
- * @FilePath: /naive-ui-template/src/api/https.ts
- */
 import axios, { AxiosError, AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
 import showCodeMessage from '@/api/code';
 import { formatJsonToUrlParams, instanceObject } from '@/utils/format';

@@ -1,10 +1,3 @@
-/*
- * @Author: black9 lcl904624834@live.com
- * @Date: 2023-02-02 17:01:56
- * @LastEditors: black9 lcl904624834@live.com
- * @LastEditTime: 2023-02-03 11:50:30
- * @FilePath: /naive-ui-template/prettier.config.js
- */
 // https://prettier.io/docs/en/configuration.html
 module.exports = {
   // 每一行的宽度(显示的字符数)

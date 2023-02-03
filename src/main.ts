@@ -1,10 +1,3 @@
-/*
- * @Author: black9 lcl904624834@live.com
- * @Date: 2023-02-02 16:42:42
- * @LastEditors: black9 lcl904624834@live.com
- * @LastEditTime: 2023-02-03 15:59:29
- * @FilePath: /naive-ui-template/src/main.ts
- */
 import { createApp } from 'vue';
 import './style.css';
 import App from './App.vue';

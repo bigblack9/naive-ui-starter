@@ -1,10 +1,3 @@
-/*
- * @Author: black9 lcl904624834@live.com
- * @Date: 2023-02-02 16:52:32
- * @LastEditors: black9 lcl904624834@live.com
- * @LastEditTime: 2023-02-03 11:50:20
- * @FilePath: /naive-ui-template/.eslintrc.js
- */
 module.exports = {
   parser: 'vue-eslint-parser',
   parserOptions: {

@@ -1,10 +1,3 @@
-/*
- * @Author: black9 lcl904624834@live.com
- * @Date: 2023-02-03 12:09:17
- * @LastEditors: black9 lcl904624834@live.com
- * @LastEditTime: 2023-02-03 12:09:24
- * @FilePath: /naive-ui-template/src/api/code.ts
- */
 declare interface codeMessageMapTypes {
   400: string;
   401: string;
