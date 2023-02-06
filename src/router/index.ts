@@ -28,7 +28,6 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: '/:pathMatch(.*)',
-    meta: {},
     redirect: '/404',
   },
 ];

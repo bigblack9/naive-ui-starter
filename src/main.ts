@@ -4,6 +4,7 @@ import store from './store';
 import router from './router';
 
 import 'vfonts/Lato.css';
+import 'nprogress/nprogress.css';
 
 import { create, NButton } from 'naive-ui';
 
