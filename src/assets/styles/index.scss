@@ -1,3 +1,13 @@
+@import '@/assets/styles/dark.scss';
+a {
+  font-weight: 500;
+  color: #2080f0;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #4098fc;
+}
+
 body {
   margin: 0;
   display: flex;
@@ -5,10 +15,10 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
+

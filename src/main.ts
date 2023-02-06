@@ -1,5 +1,4 @@
 import { createApp } from 'vue';
-import './style.css';
 import App from './App.vue';
 import store from './store';
 import router from './router';
@@ -7,6 +6,8 @@ import router from './router';
 import 'vfonts/Lato.css';
 
 import { create, NButton } from 'naive-ui';
+
+import '@/assets/styles/index.scss';
 
 const naive = create({
   components: [NButton],

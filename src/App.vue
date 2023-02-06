@@ -13,9 +13,9 @@ const theme = computed(() => {
 </script>
 
 <template>
-  <n-config-provider :theme="theme">
+  <NConfigProvider :theme="theme">
     <RouterView />
-  </n-config-provider>
+  </NConfigProvider>
 </template>
 
 <style scoped></style>
