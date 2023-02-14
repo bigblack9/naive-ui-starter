@@ -2,7 +2,7 @@
 
 ## Features
 - [Vue 3](https://github.com/vuejs/core), [Vite 4](https://github.com/vitejs/vite), [PNPM](https://pnpm.io/)
-- [Typescript]((https://www.typescriptlang.org/)
+- [Typescript](https://www.typescriptlang.org/)
 - [Naive UI](https://github.com/tusen-ai/naive-ui)
 - [Vue Router 4](https://router.vuejs.org/zh/)
 - [Pinia](https://pinia.vuejs.org)

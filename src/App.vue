@@ -3,6 +3,8 @@ import { computed } from 'vue';
 
 import { NConfigProvider, darkTheme } from 'naive-ui';
 
+import themeOverrides from '@/config/theme';
+
 import { useThemeStore } from '@/store/theme';
 
 const themeStore = useThemeStore();
@@ -13,7 +15,7 @@ const theme = computed(() => {
 </script>
 
 <template>
-  <NConfigProvider :theme="theme">
+  <NConfigProvider :theme="theme" :theme-overrides="themeOverrides">
     <RouterView />
   </NConfigProvider>
 </template>
