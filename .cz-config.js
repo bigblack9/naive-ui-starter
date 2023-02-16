@@ -1,3 +1,10 @@
+/*
+ * @Author: black9 lcl904624834@live.com
+ * @Date: 2023-02-03 16:58:12
+ * @LastEditors: black9 lcl904624834@live.com
+ * @LastEditTime: 2023-02-16 17:35:20
+ * @FilePath: /naive-ui-starter/.cz-config.js
+ */
 module.exports = {
   types: [
     { value: 'feature', name: 'feature:  增加新功能' },
@@ -15,6 +22,19 @@ module.exports = {
     { value: 'revert', name: 'revert:   回退' },
     { value: 'build', name: 'build:    打包' },
   ],
+  scopes: [
+    ['projects', '项目搭建'],
+    ['components', '组件相关'],
+    ['utils', 'utils 相关'],
+    ['styles', '样式相关'],
+    ['deps', '项目依赖'],
+    ['other', '其他修改'],
+  ].map(([value, description]) => {
+    return {
+      value,
+      name: `${value.padEnd(30)} (${description})`,
+    };
+  }),
   // override the messages, defaults are as follows
   messages: {
     type: '请选择提交类型:',
@@ -24,7 +44,7 @@ module.exports = {
     footer: '请输入要关闭的issue(待优化去除，跳过即可):',
     confirmCommit: '确认使用以上信息提交？(y/n/e/h)',
   },
-  allowCustomScopes: false,
+  allowCustomScopes: true,
   skipQuestions: ['body', 'footer'],
   subjectLimit: 72,
 };

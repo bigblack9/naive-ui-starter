@@ -1,3 +1,10 @@
+/*
+ * @Author: black9 lcl904624834@live.com
+ * @Date: 2023-02-03 16:56:56
+ * @LastEditors: black9 lcl904624834@live.com
+ * @LastEditTime: 2023-02-16 17:36:56
+ * @FilePath: /naive-ui-starter/commitlint.config.js
+ */
 module.exports = {
   extends: ['@commitlint/config-conventional', 'cz'],
   rules: {
@@ -27,7 +34,7 @@ module.exports = {
     // <type> 不能为空
     'type-empty': [2, 'never'],
     // <scope> 范围不能为空
-    'scope-empty': [2, 'never'],
+    'scope-empty': [0, 'never'],
     // <scope> 范围格式
     'scope-case': [0],
     // <subject> 主要 message 不能为空
